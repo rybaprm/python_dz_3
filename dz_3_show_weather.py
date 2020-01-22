@@ -6,7 +6,7 @@ import requests
 
 api_key='5c92d33463bdb47bd239ae728748d9d7'
 parser = argparse.ArgumentParser(description='Shows the weather in the specified city for three days')
-parser.add_argument('--city', help='city ??for which you need to show the weather')
+parser.add_argument('--city', help='city for which you need to show the weather')
 city = parser.parse_args().city
 
 def print_weather_for_day(index_of_day):
